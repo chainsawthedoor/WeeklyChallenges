@@ -18,17 +18,17 @@ namespace ChallengesWithTestsMark8
 
         public double Subtract(double minuend, double subtrahend)
         {
-            return minuend - subtrahend;
+            return subtrahend - minuend;
         }
 
-        public int Add(int number1, int number2)
+        public int Add(int append1, int append2)
         {
-            return number1 + number2;
+            return append1 + append2;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            if (number1 > number2)
+            if (number1 < number2)
             {
                 return number1;
             }
